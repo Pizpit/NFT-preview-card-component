@@ -12,7 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 
-	<title>Frontend Mentor | NFT preview card component</title>
+	<title>NFT preview card component</title>
 </head>
 
 <body>
@@ -20,6 +20,9 @@
 		<div class="card-content">
 			<div class="card-img">
 				<img src="./images/image-equilibrium.jpg" alt="image-equilibrium">
+				<div class="card-img-overlay">
+					<div class="image-hover"><img src="./images/icon-view.svg" alt="image-hover"></div>
+				</div>
 			</div>
 			<div class="card-main">
 				<div class="card--header">
@@ -31,25 +34,22 @@
 			</div>
 			<div class="card-properties">
 				<span>
-
-					<p><img src="./images/icon-ethereum.svg" alt="ethereum"> 0.041 ETH</p>
+					<img src="./images/icon-ethereum.svg" alt="ethereum">
+					<p> 0.041 ETH</p>
 				</span>
 				<span>
-					<p><img src="./images/icon-clock.svg" alt="clock"> 3 days left</p>
+					<img src="./images/icon-clock.svg" alt="clock">
+					<p> 3 days left</p>
 				</span>
 			</div>
 			<hr>
 			<div class="card-footer">
 				<img src="./images/image-avatar.png" alt="avatar">
 				<span>
-					<p>Creation of <a href="#" target="_blank" id="creation-name">Jules Wyvern</a></p>
+					<p>Creation of <a href="#" class="creation-name">Jules Wyvern</a></p>
 				</span>
 			</div>
 		</div>
-	</div>
-	<div class="attribution">
-		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-		Coded by <a href="#">Your Name Here</a>.
 	</div>
 </body>
 
